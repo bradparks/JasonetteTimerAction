@@ -9,5 +9,6 @@
 #import <Foundation/Foundation.h>
 
 @interface JasonetteTimerAction : NSObject
-
+@property (nonatomic, strong) UIViewController *VC;
+@property (nonatomic, strong) NSDictionary *options;
 @end
