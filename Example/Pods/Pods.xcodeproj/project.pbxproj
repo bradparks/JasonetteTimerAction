@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0AF1610FAF07165403F6EB57FAE0E795 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = CFED4E8CD4F5F7AC62FA586B080CEFD9 /* ReplaceMe.m */; };
 		0CC8DF858DA699EFA2C07D0AC832EA3A /* JasonetteTimerAction-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB4D1F9FDC463907A893D113B8662E21 /* JasonetteTimerAction-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1168B944B3A200D68FC2258DF75C0C70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		4747492B371540B1570833BC835DBB16 /* Pods-JasonetteTimerAction_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C3758736F137529393AE43BC619F87 /* Pods-JasonetteTimerAction_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E8D823B1DE0066C002FB7C2 /* JasonetteTimerAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8D82391DE0066C002FB7C2 /* JasonetteTimerAction.h */; };
+		5E8D823C1DE0066C002FB7C2 /* JasonetteTimerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D823A1DE0066C002FB7C2 /* JasonetteTimerAction.m */; };
+		5E8D823F1DE006CA002FB7C2 /* JasonetteTimerAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8D823D1DE006CA002FB7C2 /* JasonetteTimerAction.h */; };
+		5E8D82401DE006CA002FB7C2 /* JasonetteTimerAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8D823E1DE006CA002FB7C2 /* JasonetteTimerAction.m */; };
 		866A94F8963523027A50B787794EE0C1 /* Pods-JasonetteTimerAction_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D041BEECB70EE69F5ECF53AB23D0AC73 /* Pods-JasonetteTimerAction_Tests-dummy.m */; };
 		B159E1FB556F195CC9AD5A9F8EC135C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		F77454003CBFE8DDC0356CF6406E12BA /* JasonetteTimerAction-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB78BF1452E8F188D64CA5525D52BE4 /* JasonetteTimerAction-dummy.m */; };
@@ -28,26 +31,29 @@
 
 /* Begin PBXFileReference section */
 		033294C125ABCC670BCCBDB44854A2B2 /* JasonetteTimerAction.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JasonetteTimerAction.xcconfig; sourceTree = "<group>"; };
-		18B3AAED579188EE406966C398FC5430 /* JasonetteTimerAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JasonetteTimerAction.modulemap; sourceTree = "<group>"; };
+		18B3AAED579188EE406966C398FC5430 /* JasonetteTimerAction.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JasonetteTimerAction.modulemap; sourceTree = "<group>"; };
 		19C2B7E360D01C7DF76391C4C41E585E /* Pods-JasonetteTimerAction_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JasonetteTimerAction_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		39D20516FC3968EF1D30B28B7F55CD38 /* Pods-JasonetteTimerAction_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JasonetteTimerAction_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E8D82391DE0066C002FB7C2 /* JasonetteTimerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JasonetteTimerAction.h; path = ../../Example/JasonetteTimerAction.h; sourceTree = "<group>"; };
+		5E8D823A1DE0066C002FB7C2 /* JasonetteTimerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JasonetteTimerAction.m; path = ../../Example/JasonetteTimerAction.m; sourceTree = "<group>"; };
+		5E8D823D1DE006CA002FB7C2 /* JasonetteTimerAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JasonetteTimerAction.h; sourceTree = "<group>"; };
+		5E8D823E1DE006CA002FB7C2 /* JasonetteTimerAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JasonetteTimerAction.m; sourceTree = "<group>"; };
 		60C90D12F5E5563F3D413B891C3B2984 /* Pods-JasonetteTimerAction_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JasonetteTimerAction_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		782E7C74AF03202FD7E49A2741696C2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		845CFA60D860689BC5218E01967AE089 /* Pods_JasonetteTimerAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JasonetteTimerAction_Tests.framework; path = "Pods-JasonetteTimerAction_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		845CFA60D860689BC5218E01967AE089 /* Pods_JasonetteTimerAction_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JasonetteTimerAction_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		957BFF3AF055420731B15600CCDABFB6 /* Pods-JasonetteTimerAction_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JasonetteTimerAction_Tests-resources.sh"; sourceTree = "<group>"; };
 		A4C3758736F137529393AE43BC619F87 /* Pods-JasonetteTimerAction_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JasonetteTimerAction_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ACB78BF1452E8F188D64CA5525D52BE4 /* JasonetteTimerAction-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JasonetteTimerAction-dummy.m"; sourceTree = "<group>"; };
 		B8666C8BD30E30D9D7D3D54CD4E3BC18 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C31FC3997293DCB084442E98CEFFC00B /* JasonetteTimerAction-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JasonetteTimerAction-prefix.pch"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CFED4E8CD4F5F7AC62FA586B080CEFD9 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		D041BEECB70EE69F5ECF53AB23D0AC73 /* Pods-JasonetteTimerAction_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JasonetteTimerAction_Tests-dummy.m"; sourceTree = "<group>"; };
 		D24412F0C0B509A9227DAA2F1692BC0F /* Pods-JasonetteTimerAction_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JasonetteTimerAction_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D79706ADB2BB0455C6EA0F06B78090AD /* JasonetteTimerAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JasonetteTimerAction.framework; path = JasonetteTimerAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D79706ADB2BB0455C6EA0F06B78090AD /* JasonetteTimerAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JasonetteTimerAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB4D1F9FDC463907A893D113B8662E21 /* JasonetteTimerAction-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JasonetteTimerAction-umbrella.h"; sourceTree = "<group>"; };
 		F866B8F183479A30A70EB93DD85B2724 /* Pods-JasonetteTimerAction_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JasonetteTimerAction_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F8B26C3307D68DF4A54A0FA579561E0D /* Pods-JasonetteTimerAction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JasonetteTimerAction_Tests.modulemap"; sourceTree = "<group>"; };
+		F8B26C3307D68DF4A54A0FA579561E0D /* Pods-JasonetteTimerAction_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JasonetteTimerAction_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +95,6 @@
 			children = (
 				A8A09C589C136950F48F2368384E436D /* Classes */,
 			);
-			name = JasonetteTimerAction;
 			path = JasonetteTimerAction;
 			sourceTree = "<group>";
 		};
@@ -123,9 +128,11 @@
 		A8A09C589C136950F48F2368384E436D /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CFED4E8CD4F5F7AC62FA586B080CEFD9 /* ReplaceMe.m */,
+				5E8D823D1DE006CA002FB7C2 /* JasonetteTimerAction.h */,
+				5E8D823E1DE006CA002FB7C2 /* JasonetteTimerAction.m */,
+				5E8D82391DE0066C002FB7C2 /* JasonetteTimerAction.h */,
+				5E8D823A1DE0066C002FB7C2 /* JasonetteTimerAction.m */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -189,6 +196,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E8D823F1DE006CA002FB7C2 /* JasonetteTimerAction.h in Headers */,
+				5E8D823B1DE0066C002FB7C2 /* JasonetteTimerAction.h in Headers */,
 				0CC8DF858DA699EFA2C07D0AC832EA3A /* JasonetteTimerAction-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +289,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F77454003CBFE8DDC0356CF6406E12BA /* JasonetteTimerAction-dummy.m in Sources */,
-				0AF1610FAF07165403F6EB57FAE0E795 /* ReplaceMe.m in Sources */,
+				5E8D82401DE006CA002FB7C2 /* JasonetteTimerAction.m in Sources */,
+				5E8D823C1DE0066C002FB7C2 /* JasonetteTimerAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
